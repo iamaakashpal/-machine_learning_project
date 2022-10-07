@@ -1,7 +1,6 @@
 from housing.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,\
 ModelTrainerConfig,ModelEvaluationConfig,ModelPusherConfig,TrainingPipelineConfig
 
-
 class Configuartion:
     def __init__(self) -> None:
         pass
