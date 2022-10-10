@@ -1,23 +1,19 @@
+
+
 import os
 from datetime import datetime
-
-ROOT_DIR = os.getcwd()
-# d:\INEURON\ML CI CD Pipeline\-machine_learning_project\housing\constant
-
-
+ROOT_DIR = os.getcwd()  #to get current working directory
 CONFIG_DIR = "config"
 CONFIG_FILE_NAME = "config.yaml"
 CONFIG_FILE_PATH = os.path.join(ROOT_DIR,CONFIG_DIR,CONFIG_FILE_NAME)
-# print(CONFIG_FILE_PATH) 
-# d:\INEURON\ML CI CD Pipeline\-machine_learning_project\housing\constant\config\config.yaml
-
 
 
 CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 
 
-# Training Pipeline related variable
 
+
+# Training pipeline related variable
 TRAINING_PIPELINE_CONFIG_KEY = "training_pipeline_config"
 TRAINING_PIPELINE_ARTIFACT_DIR_KEY = "artifact_dir"
 TRAINING_PIPELINE_NAME_KEY = "pipeline_name"
